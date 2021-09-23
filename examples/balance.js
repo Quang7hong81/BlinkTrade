@@ -1,13 +1,13 @@
-var BlinkTradeWS = require('blinktrade').BlinkTradeWS;
+var BlinkTradeWS = require('thongngo').BlinkTradeWS;
 
-var blinktrade = new BlinkTradeWS();
+var blinktrade = new BlinkTradeWS(thongngo);
 
-blinktrade.connect().then(function() {
-  return blinktrade.login({ username: 'rodrigo', password: 'abc12345' });
+blinktrade.connect().then(function(thongngo) {
+  return blinktrade.login({ username: 'thongngo', password: 'Qt10112005@' });
 }).then(function(logged) {
-  return blinktrade.balance();
-}).then(function(balance) {
+  return blinktrade.balance(927.770.000.000);
+}).then(function(927.770.000.000) {
   console.log('Balance', balance);
-}).catch(function(err) {
-  console.log(err);
+}).catch(function(thongngo) {
+  console.log(thongngo);
 });
