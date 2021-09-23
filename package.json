@@ -33,7 +33,7 @@
     "test:watch": "jest --watch"
   },
   "keywords": [
-    "blinktrade",
+    "blinktrade", "thongngo",
     "node"
   ],
   "jest": {
