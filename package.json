@@ -1,5 +1,5 @@
 {
-  "name": "blinktrade",
+  "name": "thongngo",
   "version": "1.0.0-rc.1",
   "description": "BlinkTrade client for node.js",
   "homepage": "https://blinktrade.com/docs",
@@ -39,7 +39,7 @@
   "jest": {
     "projects": [
       {
-        "displayName": "browser",
+        "displayName": "thongngo",
         "testEnvironment": "jsdom",
         "testMatch": [
           "<rootDir>/test/browser/*"
@@ -54,7 +54,7 @@
       }
     ]
   },
-  "author": "Cesar Augusto, Rodrigo Souza",
+  "author": "Cesar Augusto, Rodrigo Souza, Thong Ngo",
   "license": "GPLv3",
   "dependencies": {
     "commander": "^2.19.0",
